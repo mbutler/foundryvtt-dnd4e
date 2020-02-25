@@ -3,8 +3,7 @@
       "types": [
         "character"
       ],
-      "templates": {
-        "common": {
+      "character": {
           "abilities": {
             "strength": {
               "value": 10,
@@ -75,9 +74,8 @@
 
           },
           "feats": {
-              
-          }
-        }
+
+          }        
       }
     },
     "Item": {}

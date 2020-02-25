@@ -22,5 +22,5 @@ Hooks.once("init", async function() {
 
   // Register sheet application classes
   Actors.unregisterSheet("core", ActorSheet);
-  Actors.registerSheet("phoenixcommand", Dnd4eSheet, { makeDefault: true });
+  Actors.registerSheet("dnd4e", Dnd4eSheet, { makeDefault: true });
 });
