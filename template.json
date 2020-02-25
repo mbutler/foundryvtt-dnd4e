@@ -1,0 +1,84 @@
+{
+    "Actor": {
+      "types": [
+        "character"
+      ],
+      "templates": {
+        "common": {
+          "abilities": {
+            "strength": {
+              "value": 10,
+              "min": 3,
+              "proficient": 0
+            },
+            "dexterity": {
+              "value": 10,
+              "min": 3,
+              "proficient": 0
+            },
+            "constitution": {
+              "value": 10,
+              "min": 3,
+              "proficient": 0
+            },
+            "intelligence": {
+              "value": 10,
+              "min": 3,
+              "proficient": 0
+            },
+            "wisdom": {
+              "value": 10,
+              "min": 3,
+              "proficient": 0
+            },
+            "charisma": {
+              "value": 10,
+              "min": 3,
+              "proficient": 0
+            }
+          },
+          "defenses": {
+              "ac": {
+                  "value": 10
+              },
+              "fortitude": {
+                  "value": 10
+              },
+              "reflex": {
+                  "value": 10
+              },
+              "will": {
+                  "value": 10
+              }
+          },
+          "attributes": {
+            "hp": {
+                "value": 10,
+                "min": 0,
+                "max": 10,
+                "temp": 0,
+                "tempmax": 0
+              },
+              "init": {
+                "value": 0,
+                "bonus": 0
+              },
+              "speed": {
+                "value": 6,
+                "special": ""
+              }
+          },
+          "powers": {
+
+          },
+          "skills": {
+
+          },
+          "feats": {
+              
+          }
+        }
+      }
+    },
+    "Item": {}
+  }
