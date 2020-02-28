@@ -9,7 +9,7 @@ export class Dnd4eSheet extends ActorSheet {
        * Keep track of the currently active sheet tab
        * @type {string}
        */
-      this._sheetTab = "description";
+      this._sheetTab = "stats";
     }
   
     /* -------------------------------------------- */
@@ -26,6 +26,22 @@ export class Dnd4eSheet extends ActorSheet {
         height: 600
       });
     }
+
+      /**
+   * Activate event listeners using the prepared sheet HTML
+   * @param html {HTML}   The prepared HTML object ready to be rendered into the DOM
+   */
+	activateListeners(html) {
+    super.activateListeners(html);
+
+    // Activate tabs
+    let tabs = html.find('.tabs');
+    let initial = this._sheetTab;
+    new Tabs(tabs, {
+      initial: initial,
+      callback: clicked => this._sheetTab = clicked.data("tab")
+    });
+  }
   
     
   }

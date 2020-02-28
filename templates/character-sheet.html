@@ -1,26 +1,56 @@
-<form class="{{cssClass}} flexcol" autocomplete="off">
-    <header class="sheet-header">
-        <img class="profile-img" src="{{actor.img}}" data-edit="img" title="{{actor.name}}" height="100" width="100"/>
-        <div class="header-fields">
-            <h1 class="charname"><input name="name" type="text" value="{{actor.name}}" placeholder="Name"/></h1>
-            <div class="resource">
-                Strength
-                <input type="text" name="data.abilities.strength.score" value="{{data.abilities.strength.score}}" data-dtype="Number"/>
-            </div>
-            <div class="resource">
-                
-            </div>
+<div class="sheet-wrapper">
+    <div class="sheet-base-wrapper sheet-tab-character">
+        <div class="sheet-baseinfo"><input type="text" name="attr_character_name" /><label data-i18n="character_name">Character Name</label></div>
+        <div class="sheet-baseinfo sheet-number"><input type="text" name="attr_level" value="1" /><label data-i18n="attr_level">Level</label></div>
+        <input type="hidden" name="attr_halflevel" value="floor(@{level}/2)" disabled = "true"/>
+        <div class="sheet-baseinfo"><input type="text" name="attr_class" /><label data-i18n="class">Class</label></div>
+        <div class="sheet-baseinfo"><input type="text" name="attr_paragon" /><label data-i18n="paragon_path">Paragon Path</label></div>
+        <div class="sheet-baseinfo"><input type="text" name="attr_epic" /><label data-i18n="epic_destiny">Epic Destiny</label></div>
+        <div class="sheet-baseinfo"><input type="text" name="attr_xp" /><label data-i18n="total_xp">Total XP</label></div>
+        
+        <div class="sheet-baseinfo"><input type="text" name="attr_race" /><label data-i18n="race">Race</label></div>
+        <div class="sheet-baseinfo sheet-medium">
+            <select name="attr_size">
+                    <option value="Tiny"  data-i18n="tiny">Tiny</option>
+                    <option value="Small"  data-i18n="small">Small</option>
+                    <option value="Medium" selected="selected"  data-i18n="medium">Medium</option>
+                    <option value="Large"  data-i18n="large">Large</option>
+                    <option value="Huge"  data-i18n="huge">Huge</option>
+                    <option value="Gargantuan"  data-i18n="gargantuan">Gargantuan</option>
+            </select>
+            <label data-i18n="size">Size</label>
         </div>
-    </header>
+        <div class="sheet-baseinfo sheet-number"><input type="text" name="attr_age" /><label data-i18n="age">Age</label></div>
+        <div class="sheet-baseinfo sheet-short"><input type="text" name="attr_gender" /><label data-i18n="gender">Gender</label></div>
+        <div class="sheet-baseinfo sheet-short"><input type="text" name="attr_height" /><label data-i18n="character_height">Height</label></div>
+        <div class="sheet-baseinfo sheet-short"><input type="text" name="attr_weight" /><label data-i18n="character_weight">Weight</label></div>
+        <div class="sheet-baseinfo"><input type="text" name="attr_alignment" /><label data-i18n="alignment">Alignment</label></div>
+        <div class="sheet-baseinfo"><input type="text" name="attr_deity" /><label data-i18n="deity">Deity</label></div>
 
-    {{!-- NPC Sheet Navigation --}}
+    </div>
     <nav class="sheet-navigation tabs" data-group="primary">
-
+        <a class="item active" data-tab="stats">Stats</a>
+        <a class="item" data-tab="inventory">Inventory</a>
+        <a class="item" data-tab="powers">Powers</a>
+        <a class="item" data-tab="settings">Settings</a>
     </nav>
 
-    {{!-- NPC Sheet Body --}}
     <section class="sheet-body">
+        <div class="tab stats flexrow" data-group="primary" data-tab="stats">
+            player stats
+        </div>
 
-        
+        <div class="tab inventory flexrow" data-group="primary" data-tab="inventory">
+            player inventory
+        </div>
+
+        <div class="tab powers flexrow" data-group="primary" data-tab="powers">
+            player powers
+        </div>
+
+        <div class="tab settings flexrow" data-group="primary" data-tab="settings">
+            player settings
+        </div>
     </section>
-</form>
+
+</div>
