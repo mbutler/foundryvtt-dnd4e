@@ -5,6 +5,7 @@
       ],
       "character": {
         "description": {
+          "portrait_url": "",
           "player_name": "",
           "character_name": "",
           "level": 0,
@@ -305,7 +306,8 @@
         "mannerisms_appearance": {},
         "character_background": {},
         "companions_allies": {},
-        "wealth": {}
+        "wealth": {},
+        "notes": {}
       }
     },
     "Item": {}
