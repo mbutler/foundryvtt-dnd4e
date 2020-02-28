@@ -4,78 +4,234 @@
         "character"
       ],
       "character": {
-          "abilities": {
-            "strength": {
-              "value": 10,
-              "min": 3,
-              "proficient": 0
+        "description": {
+          "player_name": "",
+          "character_name": "",
+          "level": 0,
+          "class": "",
+          "paragon_path": "",
+          "epic_destiny": "",
+          "race": "",
+          "size": "",
+          "age": "",
+          "gender": "",
+          "height": "",
+          "weight": "",
+          "alignment": "",
+          "deity": "",
+          "affiliation": "",
+          "total_xp": 0
+        },
+        "initiative": {
+          "score": 0,
+          "dex": 0,
+          "half_level": 0,
+          "misc": 0
+        },
+        "abilities": {
+          "strength": {
+            "score": 0,
+            "abil_mod": 0,
+            "mod_plus_half_lvl": 0
+          },
+          "dexterity": {
+            "score": 0,
+            "abil_mod": 0,
+            "mod_plus_half_lvl": 0
+          },
+          "constitution": {
+            "score": 0,
+            "abil_mod": 0,
+            "mod_plus_half_lvl": 0
+          },
+          "intelligence": {
+            "score": 0,
+            "abil_mod": 0,
+            "mod_plus_half_lvl": 0
+          },
+          "wisdom": {
+            "score": 0,
+            "abil_mod": 0,
+            "mod_plus_half_lvl": 0
+          },
+          "charisma": {
+            "score": 0,
+            "abil_mod": 0,
+            "mod_plus_half_lvl": 0
+          }
+        },
+        "defenses": {
+          "ac": {
+            "score": 0,
+            "10_plus_half_lvl": 0,
+            "armor_abil": 0,
+            "class": 0,
+            "feat": 0,
+            "enh": 0,
+            "misc": 0
+          },
+          "fortitude": {
+            "score": 0,
+            "10_plus_half_lvl": 0,
+            "armor_abil": 0,
+            "class": 0,
+            "feat": 0,
+            "enh": 0,
+            "misc": 0
+          },
+          "reflex": {
+            "score": 0,
+            "10_plus_half_lvl": 0,
+            "armor_abil": 0,
+            "class": 0,
+            "feat": 0,
+            "enh": 0,
+            "misc": 0
+          },
+          "will": {
+            "score": 0,
+            "10_plus_half_lvl": 0,
+            "armor_abil": 0,
+            "class": 0,
+            "feat": 0,
+            "enh": 0,
+            "misc": 0
+          }
+        },
+        "movement": {
+          "speed": {
+            "score": 0,
+            "base": 0,
+            "armor": 0,
+            "item": 0,
+            "misc": 0
+          }
+        },
+        "senses": {
+          "insight": {
+            "score": 0,
+            "base": 10,
+            "skill_bonus": 0
+          },
+          "perception": {
+            "score": 0,
+            "base": 10,
+            "skill_bonus": 0
+          }
+        },
+        "hit_points": {
+            "max_hp": 0,
+            "bloodied": 0,
+            "healing_surge_value": 0,
+            "surges_per_day": 0
+        },
+        "action_points": 0,
+        "powers": {},
+        "skills": {
+            "acrobatics": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
             },
-            "dexterity": {
-              "value": 10,
-              "min": 3,
-              "proficient": 0
+            "arcana": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
             },
-            "constitution": {
-              "value": 10,
-              "min": 3,
-              "proficient": 0
+            "athletics": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
             },
-            "intelligence": {
-              "value": 10,
-              "min": 3,
-              "proficient": 0
+            "bluff": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
             },
-            "wisdom": {
-              "value": 10,
-              "min": 3,
-              "proficient": 0
+            "diplomacy": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
             },
-            "charisma": {
-              "value": 10,
-              "min": 3,
-              "proficient": 0
+            "dungeoneering": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "endurance": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "heal": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "history": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "insight": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "intimidate": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "nature": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "perception": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "religion": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "stealth": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "streetwise": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
+            },
+            "thievery": {
+                "mod_plus_half_lvl": 0,
+                "trnd": 0,
+                "armor_penalty": 0,
+                "misc": 0
             }
-          },
-          "defenses": {
-              "ac": {
-                  "value": 10
-              },
-              "fortitude": {
-                  "value": 10
-              },
-              "reflex": {
-                  "value": 10
-              },
-              "will": {
-                  "value": 10
-              }
-          },
-          "attributes": {
-            "hp": {
-                "value": 10,
-                "min": 0,
-                "max": 10,
-                "temp": 0,
-                "tempmax": 0
-              },
-              "init": {
-                "value": 0,
-                "bonus": 0
-              },
-              "speed": {
-                "value": 6,
-                "special": ""
-              }
-          },
-          "powers": {
-
-          },
-          "skills": {
-
-          },
-          "feats": {
-
-          }        
+        },
+        "feats": {}
       }
     },
     "Item": {}
