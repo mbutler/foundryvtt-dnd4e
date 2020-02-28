@@ -120,118 +120,192 @@
           }
         },
         "hit_points": {
-            "max_hp": 0,
-            "bloodied": 0,
-            "healing_surge_value": 0,
-            "surges_per_day": 0
+          "max_hp": 0,
+          "bloodied": 0,
+          "healing_surge_value": 0,
+          "surges_per_day": 0
         },
         "action_points": 0,
-        "powers": {},
-        "skills": {
-            "acrobatics": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "arcana": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "athletics": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "bluff": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "diplomacy": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "dungeoneering": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "endurance": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "heal": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "history": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "insight": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "intimidate": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "nature": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "perception": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "religion": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "stealth": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "streetwise": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            },
-            "thievery": {
-                "mod_plus_half_lvl": 0,
-                "trnd": 0,
-                "armor_penalty": 0,
-                "misc": 0
-            }
+        "powers": {
+          "at-will": {},
+          "encounter": {},
+          "daily": {},
+          "utility": {}
         },
-        "feats": {}
+        "basic_attacks": {
+          "first": {
+            "attack": 0,
+            "vs_defense": "",
+            "weapon": "",
+            "damage": ""
+          },
+          "second": {
+            "attack": 0,
+            "vs_defense": "",
+            "weapon": "",
+            "damage": ""
+          },
+          "third": {
+            "attack": 0,
+            "vs_defense": "",
+            "weapon": "",
+            "damage": ""
+          },
+          "fourth": {
+            "attack": 0,
+            "vs_defense": "",
+            "weapon": "",
+            "damage": ""
+          }
+        },
+        "skills": {
+          "acrobatics": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "arcana": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "athletics": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "bluff": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "diplomacy": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "dungeoneering": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "endurance": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "heal": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "history": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "insight": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "intimidate": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "nature": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "perception": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "religion": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "stealth": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "streetwise": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          },
+          "thievery": {
+            "bonus": 0,
+            "mod_plus_half_lvl": 0,
+            "trnd": 0,
+            "armor_penalty": 0,
+            "misc": 0
+          }
+        },
+        "class_features": {},
+        "race_features": {},
+        "feats": {},
+        "languages": {},
+        "magic_items": {
+          "weapon_1": "",
+          "weapon_2": "",
+          "weapon_3": "",
+          "weapon_4": "",
+          "armor": "",
+          "arms": "",
+          "feet": "",
+          "hands": "",
+          "head": "",
+          "neck": "",
+          "ring_1": "",
+          "ring_2": "",
+          "waist": "",
+          "misc": ""
+        },
+        "rituals": {},
+        "equipment": {},
+        "personality_traits": {},
+        "mannerisms_appearance": {},
+        "character_background": {},
+        "companions_allies": {},
+        "wealth": {}
       }
     },
     "Item": {}
